@@ -12,7 +12,7 @@ POSTER_DIR = os.path.join(BASE_DIR, "movie posters")
 
 #mysql
 import mysql.connector
-mycon=mysql.connector.connect(host=DB_HOST,user=DB_USER,password=DB_PASSWORD,database=DB_NAME)
+mycon=mysql.connector.connect(host="localhost",user="root",password="password",database="project")
 cursor=mycon.cursor()
 
 #theme
@@ -335,7 +335,6 @@ def homepage():
 
         def exit_buttonf():
             clear_window()
-            window.config("1100x700")
             homepage()
 
         container3=tk.Frame()
