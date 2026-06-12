@@ -1,0 +1,20 @@
+Subject: Your Movie Booking is Confirmed - {mname}
+
+Hi {username},
+
+Thank you for booking with movie_bookers!
+
+Your booking for {mname} has been confirmed. Please find your ticket details below:
+
+Booking Details:
+Movie: {mname}
+Date: {mdate}
+Time: {time}
+Theater: {tname}
+Seat(s): {seats}
+
+Entry Instructions:
+Please arrive at least 15 minutes before the showtime. Present your e-ticket or booking ID at the entrance. You can also show this email for entry.
+
+If you have any questions or need to make changes to your booking, contact us at move_book@xxx.com or call 080 999xxxx.
+
