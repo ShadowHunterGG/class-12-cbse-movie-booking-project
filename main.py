@@ -129,7 +129,7 @@ def login_tab():
 
         
 
-
+    window.geometry("1100x700")
 
     lab0=tk.Label(text='Welcome Back!',font=(fontst,hsz),background=win_bg).pack(pady=(0, 15))
 
@@ -187,6 +187,7 @@ def Admin_tab():
         clear_window2()
         root.destroy()
         Admin_tab()
+        
             
     def add_but():            #when add button pressed
         clear_window2()
@@ -302,7 +303,7 @@ def Admin_tab():
 
 #3rd page (movie tab) -------------------
 def homepage():
-    window.geometry("1000x700")
+    window.geometry("1100x700")
     def poster_click(m):
         global movie_var
         movie_var=m
